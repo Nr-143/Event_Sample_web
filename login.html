@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+    background-image:linear-gradient(to right,whitesmoke,grey) ;
+     margin: 0;
+     padding: 0;
+}
+.signform{
+    border: 1px solid transparent;
+    margin-left: 40vw;
+    margin-top: 8vh;
+    background-color: rgba(0,0, 0,0.35);
+    max-width:300px;
+    border-radius: 40px;
+    padding: 7px;
+
+}
+label{
+    color: whitesmoke;
+    font-size: x-large;
+    margin-left:3px;   
+    margin-top: 6px;
+}
+input{
+    padding: 3px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hwb(300 13% 87%);
+    border-radius: 35px;
+    margin-left: 5px;
+}
+input:hover{
+    background-color: rgb(212, 210, 210);
+}
+button{
+    font-size: large;
+    border: 1px solid transparent;
+    background-color: brown;
+    width: fit-content;
+    margin-left: 155px;
+    margin-top: 10px;
+    border-radius:6px ;
+    cursor: pointer;
+}
+button:hover{
+     font-size:19px;
+}
+.formbottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formbottom p{
+    color: blue;
+    font-size: small;
+    font-family: cursive;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.title1{
+    font-size: x-large;
+    color: rgb(29, 4, 75);
+    margin-top: 5vh;
+    margin-left: 40vw;
+
+}
+
+        </style>
+    </head>
+    <body>
+        <img src="logo.png" height="100px" width="150px">
+        <div class="title1"><b> LOGIN ....</b></div>
+        <div id="sign">
+            <div class="signform">
+             <img src="logo.png"  width="50px" height="40px">
+             <form>
+                 <label>User name or E-mail</label><br>
+                 <input type="text/"type="email" name="name" required><br>
+                 
+                 <label>Password</label><br>
+                 <input type="password" name="name" required><br>
+                 <button>Submit</button>  
+             </form>
+             <div class="formbottom">
+                 <p>Forget password ?</p>
+                 <p>Need any Help ?</p>
+             </div>
+            </div>
+         </div>
+    </body>
+</html>

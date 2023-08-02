@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body{
+    margin: 0;
+    padding: 0;
+    width: 97vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,black,white,grey);
+}
+.regform{
+    /* background-color:rgba(19, 18, 18, 0.35); */
+    height:fit-content;
+    width: fit-content;
+    margin-top: 11px;
+    margin-left: 480px;
+    border-radius: 44px;
+    padding: 10px;
+}
+label{
+    font-size: 24px;
+    color: rgb(187, 62, 4);
+}
+input{
+    font-size: 19px;
+    border-radius: 14px;
+    background-color: rgb(233, 227, 227);
+    padding: 3px;
+}
+input:invalid{
+    transform: translatex(20px);
+}
+button{
+    font-size: 17px;
+    background-color: beige;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+    background-color: rgb(102, 93, 93);
+    cursor: pointer;
+
+}
+p{
+    /* margin-left: 300px; */
+    color: rgb(11, 160, 23);
+    font-size: 17px;
+    
+}
+h1{
+    color: rgb(148, 6, 6);
+    /* margin-left: 300px; */
+}
+b{
+    margin-left: 365px;
+}
+button:hover{
+    background-color: aqua;
+    font-size: 19px;
+}
+input:hover{
+    background-color: aquamarine;
+}
+  </style>
+</head>
+<body>
+    <h1>NOTE!!!</h1>
+    <p>This form only for the  counting purpose<br>
+        number of students may arrive in this event....
+    <br><HR width="600PX"><b>OFFLINE REGISTER CONDUCT BY MANAGEMENT BEFROE EVENT START</b>
+    <HR width="600px"></p>
+   <div class="regform">
+   
+    <form>
+        <label>E-mail</label><br>
+        <input type="email" name="email" required><br>
+        <label>Name</label><br>
+        <input type="text" name="name" required><br>
+        <label>Year</label><br>
+        <input type="text" name="year" required><br>
+        <label>Department</label><br>
+        <input type="text" name="dept" required><br>
+        <label>College</label><br>
+        <input type="text" name="College" required><br>
+        <label>College Location</label><br>
+        <input type="text" name="location" required><br>
+        <label>Events</label>
+        <select>
+        <option> Technical Round</option>
+        <option> Non-Technical Round</option>
+        </select><br>
+        <button>Submit</button>     
+    </form>
+   </div>
+</body>
+</html>
